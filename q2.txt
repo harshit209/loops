@@ -1,0 +1,6 @@
+question 2
+
+while True:
+    print("INFINITE")
+
+

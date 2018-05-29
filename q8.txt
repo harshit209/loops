@@ -1,0 +1,17 @@
+question 8
+
+list = ['beer','rum','vodka','whiskey']
+print(list)
+a=input("Enter")
+for i in list:
+    if(i==a):
+        print("Found")
+        list.remove(i)
+print("list after deletion",list)
+
+output
+
+['beer', 'rum', 'vodka', 'whiskey']
+Enterrum
+Found
+list after deletion ['beer', 'vodka', 'whiskey']

@@ -1,0 +1,24 @@
+question 4
+
+list=[9,'ab',2.5,'xyz']
+print(list)
+list1=[]
+list2=[]
+list3=[]
+for i in list:
+    if(type(i)==int):
+        list1.append(i)
+    elif(type(i)==float):
+        list2.append(i)
+    else:
+        list3.append(i)
+print(list1)
+print(list2)
+print(list3)
+
+output
+
+[9, 'ab', 2.5, 'xyz']
+[9]
+[2.5]
+['ab', 'xyz']

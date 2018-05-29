@@ -1,0 +1,15 @@
+question 7
+
+dict = {
+    'Harshit':1,
+    'Arora':2,
+    'abc':3
+}
+for key in dict.keys():
+    print(key,dict[key])
+
+output
+
+Harshit 1
+Arora 2
+abc 3
